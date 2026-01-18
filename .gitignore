@@ -1,0 +1,46 @@
+# Data files (often too large for git)
+data/raw/*
+data/processed/*
+data/external/*
+!data/*/.gitkeep
+
+# Models
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Reports (optional - uncomment if needed)
+# reports/*.pdf
