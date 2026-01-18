@@ -1,5 +1,4 @@
 # Data files (often too large for git)
-data/raw/*
 data/processed/*
 data/external/*
 !data/*/.gitkeep
